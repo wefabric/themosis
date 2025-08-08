@@ -1,17 +1,18 @@
 {
-  "name": "themosis/themosis",
-  "description": "Themosis, a WordPress framework.",
-  "keywords": ["themosis", "framework", "wordpress"],
+  "name": "wefabric/themosis",
+  "description": "Wefabric - Themosis, a WordPress framework.",
+  "keywords": ["themosis", "framework", "wordpress", "wefabric"],
   "license": "GPL-2.0-or-later",
-  "support": {
-    "issues": "https://github.com/themosis/framework/issues",
-    "source": "https://github.com/themosis/framework"
-  },
   "authors": [
     {
       "name": "Julien Lambé",
       "email": "julien@themosis.com",
       "homepage": "https://www.themosis.com/"
+    },
+    {
+      "name": "Leo Flapper",
+      "email": "leo@wefabric.nl",
+      "homepage": "https://wefabric.nl/"
     }
   ],
   "type": "project",
@@ -66,7 +67,8 @@
     "php": "^8.0",
     "johnpbloch/wordpress-core": "^6.0.0",
     "johnpbloch/wordpress-core-installer": "^2.0",
-    "themosis/framework": "dev-laravel-12-upgrade"
+    "themosis/framework": "dev-wefabric-laravel-12",
+    "wefabric/wp-support": "dev-main"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0"
@@ -94,7 +96,8 @@
     "post-create-project-cmd": [
       "@php artisan vendor:publish --tag=themosis --force",
       "@php artisan key:generate --ansi",
-      "@php artisan salts:generate --ansi"
+      "@php artisan salts:generate --ansi",
+      "@php artisan vendor:publish --tag=wp-support --force"
     ],
     "test": "phpunit"
   }
