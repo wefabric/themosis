@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d3b94593085d6eb53d2bf4a0c5a197e1",
+    "content-hash": "9213a51b336556cdee981c58d758f3ac",
     "packages": [
         {
             "name": "brick/math",
@@ -7728,10 +7728,16 @@
         {
             "name": "themosis/framework",
             "version": "dev-laravel-12-upgrade",
-            "dist": {
-                "type": "path",
-                "url": "./packages/themosis-framework",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wefabric/themosis-framework.git",
                 "reference": "6ae38adbf1ff10c71dba33204728631a1db775b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wefabric/themosis-framework/zipball/6ae38adbf1ff10c71dba33204728631a1db775b3",
+                "reference": "6ae38adbf1ff10c71dba33204728631a1db775b3",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "^2",
@@ -7830,9 +7836,7 @@
                 "issues": "https://github.com/themosis/framework/issues",
                 "source": "https://github.com/themosis/framework"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "time": "2025-07-19T01:50:38+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
