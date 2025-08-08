@@ -17,6 +17,26 @@
   "type": "project",
   "repositories":[
     {
+      "type": "vcs",
+      "url": "git@bitbucket.org:slicklabs/wp-support.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:slicklabs/wp-style-customizer.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:slicklabs/wp-establishments.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:slicklabs/wp-faq.git"
+    },
+    {
+      "type": "path",
+      "url": "./packages/themosis-framework"
+    },
+    {
       "type": "composer",
       "url": "https://wpackagist.org"
     }
@@ -46,9 +66,7 @@
     "php": "^8.0",
     "johnpbloch/wordpress-core": "^6.0.0",
     "johnpbloch/wordpress-core-installer": "^2.0",
-    "themosis/framework": "^3.1",
-    "fideloper/proxy": "^4.4",
-    "fruitcake/laravel-cors": "^2.0"
+    "themosis/framework": "dev-laravel-12-upgrade"
   },
   "require-dev": {
     "phpunit/phpunit": "^9.0"
