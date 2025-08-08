@@ -6,3 +6,6 @@ php artisan vendor:publish --tag=themosis --force
 php artisan key:generate --ansi
 php artisan salts:generate --ansi
 php artisan vendor:publish --tag=wp-support --force
+php artisan vendor:publish --tag=wp-style-customizer --force
+php artisan vendor:publish --tag=wp-establishments  --force
+php artisan vendor:publish --tag=wp-faq --force

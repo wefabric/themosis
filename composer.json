@@ -68,6 +68,9 @@
     "johnpbloch/wordpress-core": "^6.0.0",
     "johnpbloch/wordpress-core-installer": "^2.0",
     "themosis/framework": "dev-wefabric-laravel-12",
+    "wefabric/wp-establishments": "*",
+    "wefabric/wp-faq": "*",
+    "wefabric/wp-style-customizer": "*",
     "wefabric/wp-support": "dev-main"
   },
   "require-dev": {
